@@ -4,6 +4,7 @@ body {
 
 h1 {
     margin: 0px;
+    font-size: 3rem;
 }
 
 header {
@@ -13,15 +14,23 @@ header {
     justify-content: center;
 }
 
+p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
 .container {
-    flex-basis: 640px;
+    flex-basis: 800px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .logo {
     color: #f9faf8;
     margin: 0;
+    font-weight: 700;
 }
 
 header ul {
@@ -37,7 +46,7 @@ header a {
 
 .hero {
     background-color:#1f2937;;
-    padding: 64px 0px;
+    padding: 64px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +58,22 @@ header a {
 
 .hero p {
     color: #e5e7eb;
+}
+
+.left-hero-content {
+    flex-basis: 350px;
+    margin: 16px 0px;
+}
+
+.img-container {
+    margin: 16px 0px;
+    flex: 1;
+    flex-basis: 350px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
 }
 
 button {
