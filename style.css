@@ -164,7 +164,7 @@ button {
 }
 
 .secondary-btn {
-    border: 1px solid white;
+    border: 1px solid #e5e7eb;
     padding: 8px 16px;
 }
 
@@ -176,4 +176,13 @@ button {
 
 .cta p {
     margin: 0px;
+}
+
+footer .container {
+    padding: 32px 80px 8px 80px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
