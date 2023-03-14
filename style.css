@@ -7,6 +7,10 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 header {
     background-color: #1f2937;
     display: flex;
@@ -82,4 +86,94 @@ button {
     border-radius: 4px;
     padding: 8px 16px;
     border: 2px solid #3882f6;
+    font-weight: 700;
+}
+
+.benefits {
+    padding: 64px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.rounded-rec {
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    border: 2px solid #3882f6;
+}
+
+.benefits .container {
+    justify-content: center;
+}
+
+.rec-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 160px;
+}
+
+.rec-elements p {
+    text-align: center;
+}
+
+.testimonial {
+    padding: 64px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.quote {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 200;
+    margin: 0;
+}
+
+.attribution {
+    margin-left: auto;
+    text-align: right;
+    font-weight: 700;
+}
+
+.cta {
+    padding: 64px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cta .container {
+    background-color: #3882f6;
+    padding: 32px 80px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary-btn {
+    border: 1px solid white;
+    padding: 8px 16px;
+}
+
+.cta h3 {
+    padding: 4px 0px;
+    margin: 0px;
+    font-size: 1.625rem;
+}
+
+.cta p {
+    margin: 0px;
 }
